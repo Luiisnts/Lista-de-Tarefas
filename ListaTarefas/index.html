@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+
+    <section id="taskForm">
+
+        <form id="addTaskForm">
+            <label for="taskDescription">Descrição da Tarefa:</label>
+            <input type="text" id="taskDescription" required>
+            <button type="button" onclick="addTask()">Adicionar Tarefa</button>
+        </form>
+
+    </section>
+
+    <section id="taskList">
+
+        <ul id="tasks">
+            <!-- Lista de tarefas será exibida aqui -->
+        </ul>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
